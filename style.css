@@ -32,8 +32,7 @@ body {
     background-color: #FBD7D9 ;
 }
 
-header {
-    background-color: #FBD7D9 ;
+/* header {
     width: 100%;
     max-height: 400px;
     height: 100%;
@@ -41,15 +40,15 @@ header {
     align-items: center;
 }
 
-header video{
+.header video{
     height: 100%;
     max-height: 400px   ;
     width: auto;
     object-fit: cover; 
     opacity: .85;  
-}
+} */
 
-header p{
+/* header p{
     -o-transition-delay: 2s;
     -moz-transition-delay: 2s;
     -webkit-transition-delay: 2s;
@@ -62,7 +61,7 @@ header p{
     margin: 30px;
     text-align: center;
     text-shadow: 2px 2px #000000;
-}
+} */
 
 
 .row{
@@ -86,7 +85,8 @@ header p{
 .content{
     background-color: #ffffff;
     margin: 0px 20px;
-    padding: 30px;
+    padding: 10px;
+    height: 100%;
 }
 
 .produtos{
@@ -94,6 +94,7 @@ header p{
     max-width: 300px;
     overflow: hidden;
     display: block;
+    margin: 10px;
 }
 
 .produtos strong{
@@ -143,5 +144,14 @@ header p{
         transform: translateX(0);
     }
 }
-  
+
+
+@media (pointer:coarse) { 
+    .prod-preco{
+        height: 20%;
+        transform: translateX(0);
+        font-size: 2rem;
+    }
+}
+
   
